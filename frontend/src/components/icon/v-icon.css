@@ -1,0 +1,474 @@
+/* css div wrapper icon */
+.icon-wrapper {
+	position: relative;
+    width: 24px;
+    height: 24px;
+    padding: 2px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-wrapper-align-end {
+	align-items: flex-end !important;
+	padding-bottom: 8px;
+}
+
+.icon-wrapper-small {
+	width: 18px;
+    height: 18px;
+}
+
+.icon-wrapper-small:hover .icon::after {
+	display: block;
+}
+
+.icon-wrapper-small:active .icon::before {
+	display: block;
+}
+
+.icon-disable {
+	cursor: not-allowed !important;
+}
+
+/* css description for icon */
+.icon-wrapper:hover .icon-desc {
+	display: block;
+}
+
+.icon-desc {
+	position: absolute;
+	top: 34px;
+	white-space: nowrap;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #003166;
+	padding: 6px 8px;
+	border-radius: 6px;
+	border-top: 1px solid #fff;
+	display: none;
+	z-index: 20;
+}
+
+.icon-desc-pseudo {
+	position: absolute;
+	top: 30px;
+	width: 16px;
+	height: 16px;
+	background-color: #003166;
+	transform: rotate(45deg);
+	display: none;
+	z-index: 20;
+}
+
+/* css description on top */
+.icon-desc--top {
+	top: -38px;
+	border-top: none;
+	border-bottom: 1px solid #fff;
+	z-index: 2;
+}
+
+.icon-desc-pseudo--top {
+	top: -22px;
+	z-index: 2;
+}
+
+.icon-desc--pagination {
+	top: -42px !important;
+}
+
+.icon-desc-pseudo--pagination {
+	top: -26px !important;
+}
+
+.icon-desc--more {
+	top: -46px !important;
+}
+
+.icon-desc-pseudo--more {
+	top: -28px !important;
+}
+
+.icon-wrapper:hover .icon-desc-pseudo {
+	display: block;
+}
+
+.icon-option-more .icon-desc--top {
+	top: -42px;
+}
+
+.icon-option-more .icon-desc-pseudo--top {
+	top: -24px;
+}
+
+.icon-transition-wrapper {
+	transition-duration: 0.3s;
+}
+
+.icon-rotate {
+	transform: rotate(180deg);
+}
+
+.icon-error {
+	background: url('../../assets/icon/cross.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-warning {
+	background: url('../../assets/icon/caution.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+}
+
+.icon-success {
+	background: url('../../assets/icon/success-dialog.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 26px;
+}
+
+.icon-info {
+	background: url('../../assets/icon/information.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-close {
+	background: url('../../assets/icon/close.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-logo {
+	background: url('../../assets/icon/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-notify {
+	background: url('../../assets/icon/notification.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 26px;
+	height: 26px;
+}
+
+.icon-user {
+	background: url('../../assets/icon/profile-user.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-search {
+	background: url('../../assets/icon/magnifying-glass.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-filter {
+	background: url('../../assets/icon/filter.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-combobox-down {
+	background: url('../../assets/icon/down-arrow.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 18px;
+}
+
+.icon-tick {
+	background: url('../../assets/icon/checkmark.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-checked {
+	background: url('../../assets/icon/checked.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-close {
+	background: url('../../assets/icon/close.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-close-small {
+	background: url('../../assets/icon/close.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+}
+
+.icon-add {
+	background: url('../../assets/icon/add.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+}
+
+.icon-remove {
+	background: url('../../assets/icon/remove.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 24px;
+	height: 24px;
+}
+
+.icon-search-home {
+	background: url('../../assets/icon/search-interface-symbol.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-pin {
+	background: url('../../assets/icon/pin.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+}
+
+.icon-show-pass {
+	background: url('../../assets/icon/eye.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-hide-pass {
+	background: url('../../assets/icon/hidden.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-bag {
+	background: url('../../assets/icon/briefcase.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-messager {
+	background: url('../../assets/icon/messenger.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-not-save {
+	background: url('../../assets/icon/not-save.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-saved {
+	background: url('../../assets/icon/saved.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-next {
+	background: url('../../assets/icon/next.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-time {
+	background: url('../../assets/icon/history.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-location-detail {
+	background: url('../../assets/icon/location-detail.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-area {
+	background: url('../../assets/icon/area.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-price {
+	background: url('../../assets/icon/dollar.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-bed-room {
+	background: url('../../assets/icon/key-chain.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-toilet {
+	background: url('../../assets/icon/toilet.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-floor {
+	background: url('../../assets/icon/stairs.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-funiture {
+	background: url('../../assets/icon/buy.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-document {
+	background: url('../../assets/icon/file.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-earth {
+	background: url('../../assets/icon/earth.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-login {
+	background: url('../../assets/icon/login.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-register {
+	background: url('../../assets/icon/edit.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-user-info {
+	background: url('../../assets/icon/user-info.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-post-history {
+	background: url('../../assets/icon/blog.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-post-saved {
+	background: url('../../assets/icon/love.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-logout {
+	background: url('../../assets/icon/logout.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-success-tm {
+	background: url('../../assets/icon/tick-mark.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+}
+
+.icon-send {
+	background: url('../../assets/icon/send.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.icon-next-big {
+	background: url('../../assets/icon/next-big.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+}
